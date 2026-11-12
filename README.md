@@ -1,21 +1,21 @@
-Human Activity Recognition in Surveillance Videos Using Deep Learning
-Overview
+**Human Activity Recognition in Surveillance Videos Using Deep Learning**
+**Overview**
 This project focuses on developing an AI-powered Human Activity Recognition (HAR) system using Deep Learning and Computer Vision. It analyzes surveillance videos to identify and classify human activities using a CNN-LSTM architecture.
 CNN extracts spatial features from individual video frames, while LSTM captures temporal patterns across sequences to understand activities over time.
 
-Objectives
+**Objectives**
 - Automate human activity recognition in surveillance videos.
 - Identify suspicious activities such as fighting and abnormal behaviour.
 - Explore deep learning techniques for video analysis.
 - Investigate challenges such as occlusion and low-resolution footage.
 
-Model Architecture
+**Model Architecture**
 The project uses a hybrid CNN-LSTM architecture:
 - CNN: Extracts spatial features from video frames.
 - LSTM: Learns temporal dependencies between consecutive frames.
 - Classification Layer: Predicts the activity category.
 
-Tech Stack
+**Tech Stack**
 - Python
 - TensorFlow & Keras
 - OpenCV
@@ -24,7 +24,7 @@ Tech Stack
 - Scikit-learn
 - YOLOv8 (computer vision exploration)
 
-Project Structure
+**Project Structure**
 ```text
 Human-Activity-Recognition/
 │
@@ -38,7 +38,7 @@ Human-Activity-Recognition/
 └── README.md
 ```
 
-Installation
+**Installation**
 
 1. Clone the repository:
 ```bash
@@ -61,16 +61,16 @@ python train.py
 python predict.py
 ```
 
-Research Focus
+**Research Focus**
 The project explores the application of deep learning in intelligent surveillance, focusing on spatial-temporal feature extraction, activity classification, and challenges associated with real-world video analysis.
 
-Future Scope
+**Future Scope**
 - Real-time activity recognition.
 - Improved accuracy under occlusion and poor lighting.
 - Edge-device deployment.
 - Integration with intelligent surveillance applications.
 
-Author
+**Author**
 Simar Pal Singh 
 B.Tech – Computer Science Engineering  
 Amity University, Lucknow
